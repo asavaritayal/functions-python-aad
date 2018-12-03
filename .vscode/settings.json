@@ -1,0 +1,15 @@
+{
+  "azureFunctions.projectRuntime": "~2",
+  "azureFunctions.projectLanguage": "Python",
+  "azureFunctions.templateFilter": "Verified",
+  "azureFunctions.deploySubpath": "functions-pythong-teams-frontline.zip",
+  "azureFunctions.preDeployTask": "funcPack",
+  "files.exclude": {
+    "obj": true,
+    "bin": true
+  },
+  "azureFunctions.pythonVenv": "func_env",
+  "debug.internalConsoleOptions": "neverOpen",
+  "python.pythonPath": "func_env/bin/python",
+  "python.linting.pylintEnabled": true
+}
